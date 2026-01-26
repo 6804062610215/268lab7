@@ -9,7 +9,7 @@ int main(){
 	int arr[100], i, n;
 	scanf("%d", &n);
 	for(i = 0;i < n;i++){
-		arr[i] = randomInt(1, 100);
+		arr[i] = randomInt(1, 100); //check here!!
 	}
 	
 	for(i = 0;i < n;i++){
